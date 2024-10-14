@@ -1,0 +1,141 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Public+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Tour Guide</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+    <script src="./js/populateComponent.js"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    
+    <div class="relative flex size-full min-h-screen flex-col bg-[#FFFFFF] group/design-root overflow-x-hidden" style='font-family: "Public Sans", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#F0F2F5] px-10 py-6">
+          <div class="flex items-center gap-8">
+            <div class="flex items-center gap-4 text-[#141414]">
+              <div class="flex items-center size-8">
+                <img src="./assets/26318374_7210039.svg" alt="" srcset="">
+              </div>
+              <h2 class="text-[#141414] text-lg font-bold leading-tight tracking-[-0.015em]">Essaouira's Way</h2>
+            </div>
+            <div class="flex items-center gap-9">
+              
+            </div>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+              <a class="text-[#141414] text-sm font-semibold leading-normal" href="#">Home</a>
+              <a class="text-[#141414] text-sm font-semibold leading-normal" href="./pages/guide.html">Circuit</a>
+              <a class="text-[#141414] text-sm font-semibold leading-normal" href="./pages/contact.html">Contact Us</a>
+          </div>
+          </div>
+        </header>
+        <div class="bg-white">
+          <div class="mx-auto max-w-8xl py-24 sm:px-6 sm:py-32 lg:px-8 ">
+            <div class="relative isolate overflow-hidden px-6 pt-16 bg-[#FFFFFF] p-4 shadow-[0_0_4px_rgba(0,0,0,0.1)] sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0 lg:mx-auto">
+              
+              <div class="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
+                <h2 class="text-3xl font-bold tracking-tight text-black sm:text-4xl">Let's Discover Essaouira</br>Mogador</h2>
+                <p class="mt-6 text-lg leading-8 text-black-300">Explore the enchanting streets, vibrant markets, and breathtaking views with the best touristic guide. Join us for an unforgettable adventure in this coastal gem!</p>
+                <div class="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
+                  <a href="./pages/guide.html" class="rounded-md bg-black px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#F0F2F5] hover:text-[#141414] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Explore<span aria-hidden="true"> &rarr; </span></a>
+                </div>
+              </div>
+              <div class="relative mt-16 h-80 lg:mt-8">
+                <img class="absolute left-0 top-0 w-[57rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10" src="./assets/DSC2433.jpg" alt="App screenshot" width="1824" height="1080">
+              </div>
+            </div>
+          </div>
+        <div class="px-40 flex flex-1 justify-center py-3">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <h2 class="flex gap-3 p-3 flex-wrap pr-4 text-3xl font-bold tracking-tight text-black sm:text-4xl">Explore the hot spots of the city</h2>
+            <div id="locationsContainer"></div>
+            <div class="flex gap-3 p-3 flex-wrap pr-4">
+              <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-[#F0F2F5] pl-4 pr-4">
+                <p class="text-[#141414] text-sm font-medium leading-normal">Port</p>
+            </div>
+            <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-[#F0F2F5] pl-4 pr-4">
+                <p class="text-[#141414] text-sm font-medium leading-normal">Historic Sites</p>
+            </div>
+            <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-[#F0F2F5] pl-4 pr-4">
+                <p class="text-[#141414] text-sm font-medium leading-normal">Neighborhoods</p>
+            </div>
+            <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-[#F0F2F5] pl-4 pr-4">
+                <p class="text-[#141414] text-sm font-medium leading-normal">Art gallery</p>
+            </div>
+            <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-[#F0F2F5] pl-4 pr-4">
+                <p class="text-[#141414] text-sm font-medium leading-normal">Museums</p>
+            </div>
+            <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-[#F0F2F5] pl-4 pr-4">
+                <p class="text-[#141414] text-sm font-medium leading-normal">Handicraft</p>
+            </div>
+            <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-[#F0F2F5] pl-4 pr-4">
+                <p class="text-[#141414] text-sm font-medium leading-normal">Cultural center</p>
+            </div>
+            <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-[#F0F2F5] pl-4 pr-4">
+                <p class="text-[#141414] text-sm font-medium leading-normal">Sights & Landmarks</p>
+            </div>
+            <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-[#F0F2F5] pl-4 pr-4">
+                <p class="text-[#141414] text-sm font-medium leading-normal">Civic Centers</p>
+            </div>
+            <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-[#F0F2F5] pl-4 pr-4">
+                <p class="text-[#141414] text-sm font-medium leading-normal">Restaurant</p>
+            </div>
+            <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-[#F0F2F5] pl-4 pr-4">
+                <p class="text-[#141414] text-sm font-medium leading-normal">Mediterranean restaurant</p>
+            </div>
+            <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-[#F0F2F5] pl-4 pr-4">
+                <p class="text-[#141414] text-sm font-medium leading-normal">Surf school</p>
+            </div>
+            <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-[#F0F2F5] pl-4 pr-4">
+                <p class="text-[#141414] text-sm font-medium leading-normal">Surf shop</p>
+            </div>
+            <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-[#F0F2F5] pl-4 pr-4">
+                <p class="text-[#141414] text-sm font-medium leading-normal">Wine bar</p>
+            </div>
+            <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-[#F0F2F5] pl-4 pr-4">
+                <p class="text-[#141414] text-sm font-medium leading-normal">Horseback riding</p>
+            </div>
+            <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-[#F0F2F5] pl-4 pr-4">
+                <p class="text-[#141414] text-sm font-medium leading-normal">Outdoor Activities</p>
+            </div>
+            <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-[#F0F2F5] pl-4 pr-4">
+                <p class="text-[#141414] text-sm font-medium leading-normal">Equestrian Trails</p>
+            </div>
+            <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-[#F0F2F5] pl-4 pr-4">
+                <p class="text-[#141414] text-sm font-medium leading-normal">Horse Tracks</p>
+            </div>
+            <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-[#F0F2F5] pl-4 pr-4">
+                <p class="text-[#141414] text-sm font-medium leading-normal">Spa</p>
+            </div>
+            <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-[#F0F2F5] pl-4 pr-4">
+                <p class="text-[#141414] text-sm font-medium leading-normal">Hotel</p>
+            </div>
+            <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-xl bg-[#F0F2F5] pl-4 pr-4">
+                <p class="text-[#141414] text-sm font-medium leading-normal">Hammam</p>
+            </div>
+            
+            </div>
+          </div>
+        </div>
+        <footer class="flex justify-center">
+          <div class="flex max-w-[960px] flex-1 flex-col">
+            <footer class="flex flex-col gap-6 px-5 py-10 text-center @container">
+              <div class="flex flex-wrap items-center justify-center @[480px]:flex-row @[480px]:gap-2">
+                <a class="text-[#3E4D5B] text-base font-normal leading-normal min-w-40" href="#">About</a>
+                <p class="text-[#3E4D5B] text-base font-normal leading-normal">© 2024 Hamza bouhali</p>
+                <a class="text-[#3E4D5B] text-base font-normal leading-normal min-w-40" href="#">Contact Us</a>
+              </div>
+            </footer>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
